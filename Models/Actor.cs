@@ -23,14 +23,12 @@ public record ActorDto
 public record CreateActorDto
 {
     [Required]
-    [MaxLength(20)]
     public string? Name { get; init; }
 }
 
 public record UpdateActorDto
 {
     [Required]
-    [MaxLength(20)]
     public string? Name { get; init; }
 }
 
